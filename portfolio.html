@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,700&display=swap');
+
+        * {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #010127;
+            color: white;
+        }
+
+        nav {
+            background-color: #010127;
+            display: flex;
+            justify-content: right;
+            border-bottom: 1px solid white;
+            position: fixed;
+            width: 100%;
+        }
+
+        nav a {
+
+            padding: 2.5rem;
+            color: white;
+            text-decoration: none;
+            float: right;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: #010127;
+
+        }
+
+        nav a:nth-child(1) {
+            position: relative;
+            left: -60rem;
+        }
+
+        .first h1 {
+            color: white;
+            border: 2px solid white;
+            font-size: 3rem;
+            padding-top: 10rem;
+            padding-bottom: 3rem;
+            border-right: none;
+            border-left: none;
+            padding-left: 3rem;
+        }
+
+        .first .col {
+            width: 50%;
+            height: 60vh;
+            border: 2px solid green;
+            background-color: grey;
+            margin: 5rem;
+            border-radius: 7%;
+        }
+
+        .first .row {
+            display: flex;
+        }
+
+        .form h1 {
+            font-size: 2.3rem;
+        }
+
+        footer .h {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 3rem 0rem;
+            padding-bottom: 11rem;
+            border-top: 1px solid white;
+        }
+
+        .h a {
+            text-decoration: none;
+        }
+
+        footer h3 {
+            padding: 3rem;
+        }
+        .first .visit{
+            border:2px solid white ;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            transition: all 1s;
+
+        }
+        .first .visit:hover{
+            color: #010127;
+            background-color: aliceblue;
+            letter-spacing: 0.3rem;
+
+        }
+
+        @media all and (max-width:990px) {
+            nav a:nth-child(1) {
+                position: relative;
+                left: -11rem;
+            }
+
+            .first .row {
+                display: block;
+            }
+
+            .first .col {
+                margin: 0%;
+                width: 100%;
+                margin: 2rem 0rem;
+            }
+        }
+
+        @media all and (max-width:600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            nav a {
+                text-align: center;
+            }
+
+            nav a:nth-child(1) {
+                position: static;
+            }
+
+            .h {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .h a {
+                padding: 1.7rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href=""> <i class="fab fa-autoprefixer"></i> </a>
+        <a href="portfolio.html">PROJECTS</a>
+        <a href="portfolio website.html">PORTFOLIO</a>
+        <a href="portfolio website.html">CONTACT</a>
+    </nav>
+    <section class="first">
+        <h1>PROJECTS</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col c1">
+                    <a href="https://coding2010.github.io/GAMING/"> <img src="2022-02-10 (17).png" alt="" height="100%"
+                            width="100%"></a>
+                    <br> <br>
+                    <h3>Minecraft Website</h3>
+                    <p>It's a fully responsive website consiting of four pages.The landing home page has a video in the
+                        background, then we have
+                        gallery, contact and an about us page.
+
+                    </p>  <br>
+                    <a href="https://coding2010.github.io/GAMING" class="visit"> Visit Website </a>
+                </div>
+                <div class="col c2">
+                    <a href="https://coding2010.github.io/cloneOfSwiggy/swiggy.html"><img src="2022-02-10 (21).png"
+                            alt="" height="100%" width="100%"></a>
+
+                    <br> <br>
+
+                    <h3>Clone Of Swiggy</h3>
+                    <p>Here I have replicated the Swiggy website. It looks exactly like a the real swiggy page.</p> <br>
+                    <a href="https://coding2010.github.io/cloneOfSwiggy/swiggy.html" class="visit"> Visit Website</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col c3">
+                    <a href="https://coding2010.github.io/HungerGames/HungerGames.html"><img src="2022-02-10 (22).png"
+                            alt="" height="100%" width="100%"></a>
+                    <br> <br>
+                    <h3>Hunger Games</h3>
+                    <p>Here I have used bootstrap to make a fully responsive website about a famous book and movie
+                        series called the hunger games</p> <br>
+                    <a href="https://coding2010.github.io/HungerGames/HungerGames.html" class="visit"> Visit Website</a>
+                </div>
+                <div class="col c4">
+                    <a href="https://coding2010.github.io/RocketAnimation/rocket.html"><img src="2022-02-10 (14).png"
+                            alt="" height="100%" width="100%"></a>
+                    <br> <br>
+                    <h3>Rocket Illustration</h3>
+
+                    <p>Its not a rocket image. I have made it using CSS shapes and animations. The whole rocket is made
+                        up of div tags.</p> <br>
+                    <a href="https://coding2010.github.io/RocketAnimation/rocket.html" class="visit"> Visit Website</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col c5">
+                    <a href="https://coding2010.github.io/website/"><img src="2022-02-10 (25).png" alt="" height="100%"
+                            width="100%"></a>
+                    <br> <br>
+                    <h3>Parallax Website</h3>
+                    <p>This is a parallix and fully responsive website. Parallax means it has a special scrolling
+                        effect.</p> <br>
+                    <a href="https://coding2010.github.io/website/" class="visit"> Visit Website</a>
+                </div>
+
+                <div class="col c6"></div>
+
+            </div>
+        </div>
+        <br> <br> <br> <br>
+    </section>
+    <footer>
+        <div class="h">
+            <a href="">GAMES</a>
+            <a href="">ABOUT AND CONTACT</a>
+            <a href="">LINKEDIN,FACEBOOK,INSTAGRAM</a>
+        </div>
+        <h3>CREATED BY ADITYA SRIVASTAVA IN 2022</h3>
+    </footer>
+</body>
+
+</html>

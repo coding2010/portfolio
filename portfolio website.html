@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,700&display=swap');
+
+        * {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #010127;
+            color: white;
+        }
+
+        nav {
+            background-color: #010127;
+            display: flex;
+            justify-content: right;
+            border-bottom: 1px solid white;
+            position: fixed;
+            width: 100%;
+        }
+
+        nav a {
+
+            padding: 2.5rem;
+            color: white;
+            text-decoration: none;
+            float: right;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: #010127;
+
+        }
+
+        nav a:nth-child(1) {
+            position: relative;
+            left: -60rem;
+        }
+
+        .first {
+            background-color: #010127;
+            color: white;
+            padding: 3rem;
+        }
+
+        .first h3 {
+            padding-bottom: 2rem;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .first .c1 {
+            width: 60%;
+            padding: 3rem;
+        }
+
+        .first .c2 {
+            width: 40%;
+            object-fit: cover;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .first h1 {
+            font-size: 3rem;
+            display: inline;
+        }
+
+        .first .fa {
+            padding: 3rem;
+        }
+
+        .education .col {
+            background-color: #010127;
+            border: 1px solid white;
+            font-size: 1rem;
+            width: 100%;
+            padding: 2rem;
+            color: white;
+        }
+
+        .form {
+            background-color: #010127;
+            color: white;
+            text-align: center;
+        }
+
+        .form form {
+            width: 90%;
+            padding: 4rem 2rem;
+        }
+
+        .form label {
+            text-align: left;
+            font-size: 1.2rem;
+        }
+
+        .form input {
+            background-color: #010127;
+            border-bottom: solid 2px white;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 2rem;
+            width: 35rem;
+        }
+
+        .form button {
+            border-radius: 20%;
+            padding: 1rem 2.4rem;
+            border: 1px solid white;
+        }
+
+        .form button:hover {
+            background-color: yellow;
+            color: #010127;
+            cursor: pointer;
+        }
+
+        .form {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .form h2,
+        h1 {
+            padding-top: 2rem;
+        }
+
+        .form h1 {
+            font-size: 2.3rem;
+        }
+        footer .h{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 3rem 0rem;
+            padding-bottom: 11rem;
+            border-top: 1px solid white;
+        }
+        .h a{
+            text-decoration: none;
+        }
+        footer h3{
+            padding: 3rem;
+        }
+
+        @media all and (max-width:990px) {
+            .row {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .first .c1 {
+                width: 100%;
+                padding: 0;
+                padding-bottom: 2rem;
+                padding-top: 2rem;
+            }
+
+            .first .c2 {
+                width: 100%;
+            }
+
+            nav a:nth-child(1) {
+                position: relative;
+                left: -11rem;
+            }
+
+            .form form {
+                width: 25rem;
+            }
+        }
+
+        @media all and (max-width:600px) {
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            nav a {
+                text-align: center;
+            }
+
+            nav a:nth-child(1) {
+                position: static;
+            }
+            .h{
+                display: flex;
+                flex-direction: column;
+            }
+            .h a{
+                padding: 1.7rem;
+            }
+            .first h1{
+                padding-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href=""> <i class="fab fa-autoprefixer"></i></a>
+        <a href="portfolio.html">PROJECTS</a>
+        <a href="portfolio website.html">PORTFOLIO</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    <section class="first">
+        <h1>ADITYA SRIVASTAVA <i class="far fa-arrow-alt-circle-right"></i></h1>
+        <h3>student and web developer</h3>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col c1">
+                    <h3>Short Summary</h3>
+                    <p>My name is Aditya Srivastava. I study at the Mother International School. I am 12 years old. I
+                        like playing the guitar and I also love playing badminton. I can code in CSS, HTML, Scratch and
+                        Pictoblox. I can make fully responsive websites and I also know how to use bootstrap. I have
+                        built a lot of websites. I can replicate most websites on the internet and I have also hosted a
+                        few of my webites on Github. I like reading books and playing Minecraft <br> <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, atque. Dolores deleniti
+                        nostrum nesciunt? Officiis voluptatibus nostrum tenetur magnam libero, quaerat, rerum corporis
+                        facilis aliquid quae tempora maiores, assumenda atque?</p>
+                </div>
+                <div class="col c2">
+                    <img src="https://www.youthrive.com.au/wp-content/uploads/2017/03/9-12-years-01.jpg" alt=""
+                        width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education">
+        <div class="container">
+            <div class="row">
+                <div class="col d1">
+                    <h1>EDUCATION</h1> <br>
+                    <p>Mothers International School(grade 1- present), <br>
+                        Delhi Public School(KG-grade 1), <br>
+                        Step by Step school (play school)</p>
+                </div>
+                <div class="col d2">
+                    <h1>SKILLS</h1> <br>
+                    <p>Scratch, Pictoblox, HTML, CSS, Bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="form">
+        <h1>CONTACT ME!</h1>
+        <h2>FEEL FREE TO CONTACT ME FOR FUTURE WORK AND PARTNERSHIPS</h2>
+        <form action="">
+            <div class="l">
+                <label for="" class="n">First Name</label>
+                <br>
+                <br>
+                <input type="text">
+                <br>
+                <br>
+                <label for="" class="n">Email</label>
+                <br><br>
+                <input type="email">
+            </div>
+            <div class="r">
+                <label for="">Last Name</label> <br> <br>
+                <input type="text"> <br> <br>
+                <label for="">Subject</label> <br> <br>
+                <input type="text"> <br> <br>
+            </div>
+            <label for="">Leave me a message...</label> <br> <br>
+            <input type="text"> <br> <br>
+            <button>
+                Submit
+            </button>
+        </form>
+    </section>
+    <footer>
+        <div class="h">
+            <a href="">GAMES</a>
+            <a href="">ABOUT AND CONTACT</a>
+            <a href="">LINKEDIN,FACEBOOK,INSTAGRAM</a>
+        </div>
+        <h3>CREATED BY ADITYA SRIVASTAVA IN 2022</h3>
+    </footer>
+</body>
+
+</html>
